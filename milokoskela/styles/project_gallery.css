@@ -53,6 +53,12 @@
         width: 100%;
     }
     
+    .featuredProject video {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    
     .projectInfo{
         display: block;
         width: 100%;
