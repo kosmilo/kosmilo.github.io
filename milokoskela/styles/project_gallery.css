@@ -1,0 +1,67 @@
+/* Projects section */
+
+/* ks. https://blog.udemy.com/javascript-href/ */
+
+
+.featuredProject {
+    clear: both;
+    font-size: 0px;
+    margin-top: 30px;
+}
+
+.featuredProject img {
+    width: 45%;
+    border: solid rgb(244, 240, 255) 2px;
+    margin-bottom: 40px;
+}
+
+.featuredProject video {
+    width: 45%;
+    border: solid rgb(244, 240, 255) 2px;
+    margin-bottom: 40px;
+}
+
+.imgOnLeft {
+    margin-right: 3%;
+    float: left;
+}
+
+.imgOnRight {
+    margin-left: 3%;
+    float: right;
+}
+
+.projectInfo{
+    float: left;
+    vertical-align: top;
+    width: 52%;
+    text-align: justify;
+}
+
+.projectInfo hr {
+    width: 100%;
+}
+
+.projectInfo p {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .featuredProject img {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .projectInfo{
+        display: block;
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+    
+    .projectInfo p {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+}

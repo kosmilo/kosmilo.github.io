@@ -1,0 +1,135 @@
+/* Reset box sizes */
+/* Good ref: https://www.chauhogamedesigner.com/, https://www.michaellevall.com/ and http://www.mollyjameson.com/ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* set the background and the space for the content*/
+
+body {
+    color: rgb(244, 240, 255);
+    background: url("../imgs/background.jpg") center/cover no-repeat fixed;
+
+}
+
+header {
+    width: 10000px;
+    max-width: 90%;
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+}
+
+header h1 {
+    padding-top: 20vh;
+}
+
+#background {
+    width: 100%;
+    background-color: rgb(9, 9, 10);
+}
+
+#contentWrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    padding: 4%;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+    padding:  50px 20px;
+    }
+    #projects, #skills, #aboutMe, footer {
+        padding: 20px 20px;
+    
+    }
+}
+
+/* lines */
+
+hr {
+    height: 3px;
+    border: none;
+    background-color: rgb(244, 240, 255);
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    hr {
+        height: 2px;
+        margin-bottom: 10px;
+    }
+}
+
+/* nav */
+
+nav {
+    clear: both;
+    width: 100%;
+    background-color: rgb(9, 9, 10);
+    padding: 0px 20px;
+    position: static;
+}
+
+/* Javascript adds this class to navbar */
+.sticky {
+    position: fixed;
+    top: 0;
+  }
+
+  @media screen and (max-width: 700px) {
+    .sticky {
+        position: static;
+    }
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    font-size: 0px;
+    padding: none;
+    margin: none;
+}
+
+#navbar li {
+    display: inline-block;
+}
+
+#navbar li:hover {
+    background-color: rgba(63, 63, 63, 0.322);
+}
+
+#navbar li a {
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+    color: rgb(244, 240, 255);
+}
+
+
+@media screen and (max-width: 700px) {
+    #navbar li {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    nav {
+        padding: 0px;
+    }
+}
+
+#contact {
+    clear: both;
+}
+
+
+#contact p {
+    margin-top: 10px;
+}

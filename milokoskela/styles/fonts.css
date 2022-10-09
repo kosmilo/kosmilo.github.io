@@ -1,0 +1,68 @@
+/* Text fonts and sizes */
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Staatliches', sans-serif;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 34px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+    width: 100%;
+}
+
+h3, h4 {
+    font-size: 40px;
+}
+
+h5, h6 {
+    font-size: 35px;
+}
+
+@media screen and (max-width: 750px) {
+    * {
+        font-size: 15px;
+    }
+
+    header p {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3, h4 {
+        font-size: 20px;
+    }
+
+    h5, h6 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,68 @@
+/* About me section */
+
+#aboutMe {
+    clear: both;
+}
+
+#introduction {
+    padding-top: 15px;
+    font-size: 0px;
+}
+
+#introduction img {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    border: solid rgb(244, 240, 255) 2px;
+    margin-left: 3%;
+}
+
+#introductionText {
+    display: inline-block;
+    vertical-align: top;
+    width: 67%;
+    text-align: justify;
+}
+
+#introductionText h5 {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    #introduction img {
+        display: block;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #introductionText {
+        display: block;
+        width: 100%;
+        padding-top: 10px;
+    }
+}
+
+.skillList {
+    list-style: none;
+}
+
+.progressContainer {
+    width: 100%;
+    background-color: rgba(29, 29, 29, 0.9);
+    border-radius: 5px;
+    margin: 10px 0px 30px 0px;
+}
+
+.progress {
+    background-image: linear-gradient(to right, rgb(26, 182, 161), rgb(60, 68, 143));
+    border-radius: 5px;
+}
+
+.progress p {
+    padding: 5px 10px;
+}
+
+#aboutMe h5 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
